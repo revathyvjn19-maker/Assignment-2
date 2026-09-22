@@ -34,7 +34,9 @@ Removed Duplicate Rows
 ## Splitting and Merging Data:
 * Split the "Product ID" column into two separate columns for " Manufacturing Date" and "Country Code". Remove unnecessary characters, if any.
 Split DD-MMM-CC into Manufacturing Date and Country Code; hyphens removed from the resulting fields.
+
 **Data – Text to Columns**
+
 * Merge the "Brand Name" and "Product Name" columns into one column named "Product Brand".
 
 Merged the "Brand Name" and "Product Name" columns into one column named "Product Brand" by using “ Concatenate” Function
@@ -53,6 +55,7 @@ Syntax
 	
 ## Conditional Formatting:
 * Apply data bar or color scales conditional formatting in the "Price" column.
+  
 **Conditional formatting – Data Bars**
 * Create a custom rule for conditional formatting in the "Category" column to highlight cells where the category is "Electronics."
 **Conditional Formatting -Highlight Cells Rules – Text that contains – Electronics – select the for highlight – ok**
